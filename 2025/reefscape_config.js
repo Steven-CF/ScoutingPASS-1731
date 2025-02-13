@@ -3,7 +3,7 @@ var config_data = `
   "dataFormat": "tsv",
   "title": "Scouting PASS 2025",
   "page_title": "REEFSCAPE",
-  "checkboxAs": "10",
+  "checkboxAs": "YN",
   "prematch": [
     { "name": "Scouter Initials",
       "code": "s",
@@ -235,6 +235,11 @@ var config_data = `
       "type": "text",
       "size": 15,
       "maxSize": 55
+    },
+    { "name": "Banana check",
+      "code": "bc",
+      "type": "bool",
+      "tooltip": "Did they have an automatic Banana peeler?" 
     }
   ]
 }`;
