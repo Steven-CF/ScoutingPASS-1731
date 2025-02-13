@@ -230,16 +230,16 @@ var config_data = `
       "code": "all",
       "type": "bool"
     },
+    { "name": "Banana check",
+      "tooltip": "Did they have an automatic Banana peeler?",
+      "code": "banc",
+      "type": "bool"
+    },
     { "name": "Comments",
       "code": "co",
       "type": "text",
       "size": 15,
       "maxSize": 55
-    },
-    { "name": "Banana check",
-      "code": "bc",
-      "type": "bool",
-      "tooltip": "Did they have an automatic Banana peeler?" 
     }
   ]
 }`;
