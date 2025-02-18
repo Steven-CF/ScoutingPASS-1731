@@ -94,8 +94,32 @@ var config_data = `
       "code": "aps",
       "type": "counter"
     },
-    { "name": "Net Score",
+    { "name": "Barge Score",
       "code": "ans",
+      "type": "counter"
+    },
+    { "name": "Missed Coral L1",
+      "code": "mc1",
+      "type": "counter"
+    },
+    { "name": "Missed Coral L2",
+      "code": "mc2",
+      "type": "counter"
+    },
+    { "name": "Missed Coral L3",
+      "code": "amc3",
+      "type": "counter"
+    },
+    { "name": "Missed Coral L4",
+      "code": "mc4",
+      "type": "counter"
+    },
+    { "name": "Missed Processor",
+      "code": "mps",
+      "type": "counter"
+    },
+    { "name": "Missed Barge",
+      "code": "mns",
       "type": "counter"
     }
   ],
@@ -124,6 +148,30 @@ var config_data = `
       "code": "tns",
       "type": "counter"
     },
+    { "name": "Missed Coral L1",
+      "code": "mtc1",
+      "type": "counter"
+    },
+    { "name": "Missed Coral L2",
+      "code": "mtc2",
+      "type": "counter"
+    },
+    { "name": "Missed Coral L3",
+      "code": "mtc3",
+      "type": "counter"
+    },
+    { "name": "Missed Coral L4",
+      "code": "mtc4",
+      "type": "counter"
+    },
+    { "name": "Missed Processor",
+      "code": "mtps",
+      "type": "counter"
+    },
+    { "name": "Missed Barge",
+      "code": "mtns",
+      "type": "counter"
+    },
     { "name": "Pickup From",
       "code": "tpu",
       "type": "radio",
@@ -141,18 +189,21 @@ var config_data = `
     }
   ],
   "endgame": [
-    { "name": "Barge Timer",
+    { "name": "Barge Time",
       "code": "ebt",
-      "type": "timer"
+      "type": "text,"
+      "size": 15
     },
-    { "name": "Final Robot Status",
+    { "name": "Attempted End Position",
       "code": "efs",
       "type":"radio",
       "choices": {
         "bp": "Parked<br>",
-        "ba": "Parked/Failed Climb<br>",
+        "baf": "Parked/Failed Climb<br>",
         "bs": "Shallow Cage<br>",
+        "bsf": "Shallow Cage/Failed<br>",
         "bd": "Deep Cage<br>",
+        "bdf": "Deep Cage/Failed<br>",
         "x": "Not attempted"
       },
       "defaultValue": "x"
@@ -234,8 +285,7 @@ var config_data = `
     { "name": "Comments",
       "code": "co",
       "type": "text",
-      "size": 15,
-      "maxSize": 55
+      "size": 15
     }
   ]
 }`;
