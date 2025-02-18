@@ -191,7 +191,7 @@ var config_data = `
   "endgame": [
     { "name": "Barge Time",
       "code": "ebt",
-      "type": "text,"
+      "type": "text",
       "size": 15
     },
     { "name": "Attempted End Position",
