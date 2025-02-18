@@ -14,7 +14,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2025ilpe",
+      "defaultValue": "2025ilpe"
     },
     { "name": "Match Level",
       "code": "l",
@@ -24,13 +24,13 @@ var config_data = `
         "sf": "Semifinals<br>",
         "f": "Finals"
       },
-      "defaultValue": "qm",
+      "defaultValue": "qm"
     },
     { "name": "Match #",
       "code": "m",
       "type": "match",
       "min": 1,
-      "max": 150,
+      "max": 150
     },
     { "name": "Robot",
       "code": "r",
@@ -43,7 +43,7 @@ var config_data = `
         "r3": "Red-3",
         "b3": "Blue-3"
       },
-      "defaultValue": "b1",
+      "defaultValue": "b1"
     },
     { "name": "Team #",
       "code": "t",
